@@ -1,0 +1,36 @@
+import numpy as np
+
+
+class ExpressionConstant:
+    expression_mapping = {
+        "absolute": np.abs,
+        "sin": np.sin,
+        "cos": np.cos,
+        "tan": np.tan,
+        "arcsin": np.arcsin,
+        "arccos": np.arccos,
+        "arctan": np.arctan,
+        "exp": np.exp,
+        "log": np.log,
+        "log10": np.log10,
+        "sqrt": np.sqrt,
+        "floor": np.floor,
+        "ceil": np.ceil,
+        "round": np.round,
+        "add": np.add,
+        "subtract": np.subtract,
+        "multiply": np.multiply,
+        "divide": np.divide,
+        "power": np.power,
+        "remainder": np.remainder,
+        "reciprocal": np.reciprocal,
+        "square": np.square,
+        "negative": np.negative,
+        "sign": np.sign,
+        "degrees": np.degrees,
+        "radians": np.radians,
+        "rand": np.random.rand,
+        "avg": np.mean,
+        "min": np.minimum,
+        "max": np.maximum,
+    }
